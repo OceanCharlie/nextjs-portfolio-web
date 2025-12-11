@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { Code2, Database, Palette, Terminal } from 'lucide-react';
 
 export function Expertise() {
@@ -98,20 +99,29 @@ export function Expertise() {
                         <div className="space-y-8">
                             <div className="bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-sm hover:border-blue-500/30 transition-colors">
                                 <div className="flex flex-col gap-6">
-                                    <img
+                                    <Image
                                         src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nextjs,nodejs&perline=9"
                                         alt="Frontend & Backend Tech"
+                                        width={800}
+                                        height={100}
                                         className="w-full h-auto"
+                                        unoptimized
                                     />
-                                    <img
+                                    <Image
                                         src="https://skillicons.dev/icons?i=mysql,php,spring,git,linux,postman,py,tensorflow,vercel&perline=9"
                                         alt="Database, DevOps & AI"
+                                        width={800}
+                                        height={100}
                                         className="w-full h-auto"
+                                        unoptimized
                                     />
-                                    <img
+                                    <Image
                                         src="https://skillicons.dev/icons?i=cpp,figma,xd,ps,ai,pr&perline=9"
                                         alt="Design & Tools"
+                                        width={800}
+                                        height={100}
                                         className="w-full h-auto"
+                                        unoptimized
                                     />
                                 </div>
                             </div>
