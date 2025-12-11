@@ -56,3 +56,6 @@ Desktop.ini
 
 # Logs
 *.log
+
+.vercel
+.env*.local
