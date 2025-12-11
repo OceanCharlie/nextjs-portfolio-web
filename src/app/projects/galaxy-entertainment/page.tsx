@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { ImageWithFallback } from '@/components/shared/ImageWithFallback';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
+import {ImageGallery} from '@/components/shared/ImageGallery';
 
 export default function GalaxyProjectPage() {
     return (
@@ -63,18 +64,10 @@ export default function GalaxyProjectPage() {
 
                             <section>
                                 <h2 className="text-2xl font-bold mb-8 text-white">Project Gallery</h2>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div className="relative aspect-video bg-neutral-900 rounded-xl overflow-hidden border border-white/10 group">
-                                        <div className="absolute inset-0 flex items-center justify-center text-neutral-600 bg-neutral-900">
-                                            <span>Admin Dashboard</span>
-                                        </div>
-                                    </div>
-                                    <div className="relative aspect-video bg-neutral-900 rounded-xl overflow-hidden border border-white/10 group">
-                                        <div className="absolute inset-0 flex items-center justify-center text-neutral-600 bg-neutral-900">
-                                            <span>Landing Page</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ImageGallery images={[
+                                    "/images/galaxy-1.png",
+                                    "/images/galaxy-2.png"
+                                ]} />
                             </section>
 
                             <section>
