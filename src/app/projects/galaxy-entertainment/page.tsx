@@ -1,12 +1,11 @@
-
 import React from 'react';
 import Link from 'next/link';
-import { ArrowLeft, ExternalLink, Calendar, Code, User, CheckCircle2, Shield, Users, Layers, Layout, Lock, Database } from 'lucide-react';
+import { ArrowLeft, Calendar, Code, User, Shield, Users, Layers, Layout, Lock, Database } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ImageWithFallback } from '@/components/shared/ImageWithFallback';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
-import {ImageGallery} from '@/components/shared/ImageGallery';
+import { ImageGallery } from '@/components/shared/ImageGallery';
 
 export default function GalaxyProjectPage() {
     return (
@@ -120,7 +119,7 @@ export default function GalaxyProjectPage() {
                                 <h3 className="text-xl font-bold text-white mb-4">Role & Contribution</h3>
                                 <div className="space-y-4 text-neutral-300">
                                     <p className="border-l-4 border-cyan-500 pl-4 italic">
-                                        "Developed the frontend architecture using Next.js App Router for optimal performance. I implemented pixel-perfect responsive designs and integrated complex REST APIs with TanStack Query to ensure efficient data management and caching across the application."
+                                        &quot;Developed the frontend architecture using Next.js App Router for optimal performance. I implemented pixel-perfect responsive designs and integrated complex REST APIs with TanStack Query to ensure efficient data management and caching across the application.&quot;
                                     </p>
                                 </div>
                             </section>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ArrowLeft, ExternalLink, Calendar, Code, User, Database, Shield, BarChart3, Clock, Layout, Lock } from 'lucide-react';
+import { ArrowLeft, Calendar, Code, User, Database, Shield, BarChart3, Clock, Layout, Lock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ImageWithFallback } from '@/components/shared/ImageWithFallback';
 import { Navbar } from '@/components/layout/Navbar';
@@ -57,7 +57,7 @@ export default function ITKnowledgeProjectPage() {
                                         About The Project
                                     </h2>
                                     <p className="text-neutral-300 leading-relaxed mb-6">
-                                        This application acts as a bridge between students/lecturers and the IT Knowledge Center's facilities, replacing manual systems with an efficient digital platform. Integrated with a Laravel backend, it is designed for scalability and ease of use.
+                                        This application acts as a bridge between students/lecturers and the IT Knowledge Center&apos;s facilities, replacing manual systems with an efficient digital platform. Integrated with a Laravel backend, it is designed for scalability and ease of use.
                                     </p>
                                     <h3 className="text-lg font-semibold text-white mb-2">Key Objectives:</h3>
                                     <ul className="list-disc list-inside text-neutral-300 space-y-2 mb-6">
@@ -120,7 +120,7 @@ export default function ITKnowledgeProjectPage() {
                             <section className="bg-gradient-to-br from-blue-900/20 to-purple-900/20 border border-blue-500/20 rounded-2xl p-8">
                                 <h3 className="text-xl font-bold text-white mb-4">Technical Highlight</h3>
                                 <blockquote className="text-lg text-neutral-300 italic border-l-4 border-blue-500 pl-4">
-                                    "In this project, I utilized the Next.js App Router to enhance SEO performance and initial load times. I also implemented Custom Hooks patterns (such as useDashboardData, usePagination) to separate business logic from UI, resulting in cleaner, maintainable, and testable code."
+                                    &quot;In this project, I utilized the Next.js App Router to enhance SEO performance and initial load times. I also implemented Custom Hooks patterns (such as useDashboardData, usePagination) to separate business logic from UI, resulting in cleaner, maintainable, and testable code.&quot;
                                 </blockquote>
                             </section>
                         </div>

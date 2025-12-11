@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Database, Code2, Layout, GraduationCap, Sparkles } from 'lucide-react';
+import { Database, Code2, Layout } from 'lucide-react';
 
 export function ProfileCard() {
     return (

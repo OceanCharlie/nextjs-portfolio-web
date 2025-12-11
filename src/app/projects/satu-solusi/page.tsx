@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ArrowLeft, ExternalLink, Calendar, Code, User, Palette, Layout, Globe, DollarSign, FileText, MessageCircle, Lock } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Calendar, Code, User, Globe, DollarSign, MessageCircle } from 'lucide-react';
 import { ImageGallery } from '@/components/shared/ImageGallery';
 import { ImageWithFallback } from '@/components/shared/ImageWithFallback';
 import { Button } from '@/components/ui/button';
@@ -57,7 +57,7 @@ export default function SatuSolusiProjectPage() {
                                         About The Project
                                     </h2>
                                     <p className="text-neutral-300 leading-relaxed mb-6">
-                                        The goal was to create a digital presence that builds trust and clearly communicates value. We structured the site to guide users naturally from understanding the "Services" to checking "Prices & Promos", and finally taking action via "Consultation".
+                                        The goal was to create a digital presence that builds trust and clearly communicates value. We structured the site to guide users naturally from understanding the &quot;Services&quot; to checking &quot;Prices & Promos&quot;, and finally taking action via &quot;Consultation&quot;.
                                     </p>
                                 </section>
                             </section>
@@ -123,7 +123,7 @@ export default function SatuSolusiProjectPage() {
                                 <h3 className="text-xl font-bold text-white mb-4">Design Philosophy</h3>
                                 <div className="space-y-4 text-neutral-300">
                                     <p className="border-l-4 border-orange-500 pl-4 italic">
-                                        "The focus was on clarity and trust. As a corporate profile, the design needed to communicate professionalism while remaining accessible. We established a strong grid system and a harmonious color palette derived from the brand identity to ensure a consistent user experience across all key pages."
+                                        &quot;The focus was on clarity and trust. As a corporate profile, the design needed to communicate professionalism while remaining accessible. We established a strong grid system and a harmonious color palette derived from the brand identity to ensure a consistent user experience across all key pages.&quot;
                                     </p>
                                 </div>
                             </section>
