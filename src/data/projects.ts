@@ -40,18 +40,5 @@ export const projects: Project[] = [
         features: ['Real-time Reservation', 'API Optimization', 'Admin Dashboard', 'Mobile Responsive'],
         role: 'Frontend Developer',
         year: '2025'
-    },
-    {
-        slug: 'satu-solusi',
-        number: '03',
-        title: 'SatuSolusi Company Profile',
-        category: 'UI/UX Design',
-        description: 'Designed clean, intuitive, and brand-aligned interfaces to improve usability and readability for company profile website.',
-        image: '/images/satu-solusi.png',
-        tags: ['Figma', 'UI/UX', 'Design System'],
-        content: 'Detailed case study content regarding the SatuSolusi Company Profile project...',
-        features: ['Design System', 'User Research', 'Prototyping', 'Brand Identity'],
-        role: 'UI/UX Designer',
-        year: '2025'
     }
 ];

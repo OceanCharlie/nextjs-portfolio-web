@@ -11,8 +11,11 @@ interface ImageWithFallbackProps extends Omit<ImageProps, 'onError'> {
 }
 
 export function ImageWithFallback(props: ImageWithFallbackProps) {
-  const { src, alt, style, className, fallbackSrc = ERROR_IMG_SRC, ...rest } = props;
+  const { src, alt, style, className, fallbackSrc = ERROR_IMG_SRC, fill, ...rest } = props;
   const [error, setError] = useState(false);
+
+  const hasDimensions = props.width !== undefined || props.height !== undefined;
+  const shouldFill = fill !== undefined ? fill : !hasDimensions;
 
   return (
     <Image
@@ -21,7 +24,7 @@ export function ImageWithFallback(props: ImageWithFallbackProps) {
       alt={alt}
       className={className}
       style={style}
-      fill
+      fill={shouldFill}
       onError={() => setError(true)}
     />
   );

@@ -21,7 +21,7 @@ export default function GalaxyProjectPage() {
             <article className="relative z-10 pt-32 pb-20 px-8 lg:px-24 xl:px-28">
                 <div className="max-w-6xl mx-auto">
                     <div className="mb-8">
-                        <Link href="/#work" className="inline-flex items-center gap-2 text-neutral-400 hover:text-white transition-colors group">
+                        <Link href="/projects" className="inline-flex items-center gap-2 text-neutral-400 hover:text-white transition-colors group">
                             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
                             Back to Projects
                         </Link>

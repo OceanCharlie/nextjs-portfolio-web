@@ -36,7 +36,7 @@ const organizationalExperience = [
         role: 'Art & Creative Coordinator',
         company: 'I/O Festival 2025',
         period: '2025',
-        description: 'Managed creative direction and visual assets for tech festival',
+        description: 'Managed creative direction and visual assets for national tech festival',
         icon: Palette
     },
     {

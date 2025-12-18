@@ -8,4 +8,5 @@ export interface Repository {
     language: string;
     updated_at: string;
     topics: string[];
+    homepage?: string;
 }
