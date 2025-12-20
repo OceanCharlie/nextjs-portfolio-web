@@ -9,7 +9,7 @@ const educationData = [
         school: "Universitas Tarumanagara",
         degree: "Bachelor of Information Systems",
         period: "August 2023 — Present",
-        gpa: "3.66/4.00",
+        gpa: "3.71/4.00",
         courses: ['Web Development', 'Software Development', 'OOP', 'Oracle DBA', 'Database Design']
     },
     {
@@ -34,7 +34,7 @@ export function About() {
     return (
         <section id="about" className="px-8 py-28 lg:py-32 lg:px-24 xl:px-28">
             <div className="max-w-[1600px] mx-auto">
-                <div className="grid gap-16 lg:grid-cols-2 xl:gap-20 items-center">
+                <div className="grid items-center gap-16 lg:grid-cols-2 xl:gap-20">
                     <div className="order-2 lg:order-1">
                         <div className="relative">
                             <AnimatePresence mode="wait">
@@ -44,10 +44,10 @@ export function About() {
                                     animate={{ opacity: 1, y: 0 }}
                                     exit={{ opacity: 0, y: -20 }}
                                     transition={{ duration: 0.5 }}
-                                    className="p-8 bg-gradient-to-br rounded-3xl border backdrop-blur-xl border-white/10 from-neutral-900/50 to-neutral-950/50"
+                                    className="p-8 border bg-gradient-to-br rounded-3xl backdrop-blur-xl border-white/10 from-neutral-900/50 to-neutral-950/50"
                                 >
-                                    <div className="flex gap-4 items-start mb-6">
-                                        <div className="flex flex-shrink-0 justify-center items-center w-12 h-12 rounded-2xl border bg-blue-500/10 border-blue-500/20">
+                                    <div className="flex items-start gap-4 mb-6">
+                                        <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 border rounded-2xl bg-blue-500/10 border-blue-500/20">
                                             <GraduationCap className="w-6 h-6 text-blue-400" />
                                         </div>
                                         <div>
@@ -63,7 +63,7 @@ export function About() {
                                         <p className="mb-3 text-sm text-neutral-500">Relevant Courses/Skills:</p>
                                         <div className="flex flex-wrap gap-2">
                                             {educationData[activeEducation].courses.map((course) => (
-                                                <span key={course} className="px-3 py-1 text-xs rounded-full border bg-white/5 text-neutral-400 border-white/10">
+                                                <span key={course} className="px-3 py-1 text-xs border rounded-full bg-white/5 text-neutral-400 border-white/10">
                                                     {course}
                                                 </span>
                                             ))}
@@ -85,7 +85,7 @@ export function About() {
                         </div>
                     </div>
 
-                    <div className="space-y-8 order-1 lg:order-2">
+                    <div className="order-1 space-y-8 lg:order-2">
                         <div>
                             <div className="mb-4 text-sm tracking-widest text-blue-400">CURENTLY</div>
                             <h2 className="mb-6 text-4xl leading-tight lg:text-5xl lg:mb-8">
@@ -94,7 +94,7 @@ export function About() {
                                     Future
                                 </span>
                             </h2>
-                            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full" />
+                            <div className="w-24 h-1 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500" />
                         </div>
 
                         <p className="text-xl leading-relaxed lg:text-2xl text-neutral-300">
