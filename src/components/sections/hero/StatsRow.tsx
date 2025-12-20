@@ -2,7 +2,7 @@ import React from 'react';
 
 export function StatsRow() {
     const stats = [
-        { value: "3.66", label: "GPA / 4.00", gradient: "from-blue-400 to-cyan-400" },
+        { value: "3.71", label: "GPA / 4.00", gradient: "from-blue-400 to-cyan-400" },
         { value: "10+", label: "Projects Done", gradient: "from-cyan-400 to-blue-400" },
         { value: "2+", label: "Years Exp", gradient: "from-blue-400 to-purple-400" },
     ];
